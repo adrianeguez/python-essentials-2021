@@ -8,6 +8,8 @@ Created on Tue Oct 26 08:22:35 2021
 
 import fun_ejercicio_1_1
 import fun_ejercicio_1_2
+import fun_ejercicio_2
+import fun_ejercicio_3
 
 opcion = ""
 while opcion != "0":
@@ -21,3 +23,7 @@ while opcion != "0":
         fun_ejercicio_1_1.ejercicio_uno_uno()
     if(opcion == "2"):
         fun_ejercicio_1_2.ejercicio_uno_dos()
+    if(opcion == "3"):
+        fun_ejercicio_2.ejercicio_dos()
+    if(opcion == "4"):
+        fun_ejercicio_3.ejercicio_uno_dos()
